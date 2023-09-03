@@ -20,7 +20,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-AWAC.aml</string>
+				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -36,7 +36,7 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+				<string>SSDT-PLUG-ALT.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -44,7 +44,15 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG-ALT.aml</string>
+				<string>SSDT-RTCAWAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -771,6 +779,8 @@
 			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
+			<key>InstanceIdentifier</key>
+			<string></string>
 			<key>LauncherOption</key>
 			<string>Full</string>
 			<key>LauncherPath</key>
@@ -1015,9 +1025,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K926902CDFHDD8C</string>
+			<string>C02015700J900008C</string>
 			<key>ProcessorType</key>
-			<integer>3842</integer>
+			<integer>4105</integer>
 			<key>ROM</key>
 			<data>dFY8wdUP</data>
 			<key>SpoofVendor</key>
@@ -1025,11 +1035,11 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KYXTYZP7QM</string>
+			<string>C02CKRZ4046M</string>
 			<key>SystemUUID</key>
-			<string>3A57C088-665B-416F-8C44-CA746F11B586</string>
+			<string>1BE6F803-694A-44F1-B121-A12E36BD74D2</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
